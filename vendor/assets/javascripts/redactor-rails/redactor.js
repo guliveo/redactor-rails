@@ -6,7 +6,7 @@
 
 	Copyright (c) 2009-2013, Imperavi LLC.
 	License: http://imperavi.com/redactor/license/
-
+tbal
 	Usage: $('#content').redactor();
 */
 
@@ -4860,7 +4860,7 @@
 			this.buttonActiveObserver();
 
 			table.find('span#selection-marker-1').remove();
-			table.removeAttr('id');
+			//table.removeAttr('id');
 
 			this.sync();
 		},
